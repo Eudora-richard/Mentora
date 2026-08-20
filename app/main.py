@@ -5,7 +5,7 @@ app = FastAPI(title="Mentora API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict this to your frontend URL
+    allow_origins=["*"],  # In production, restrict this to your frontend URL so dont worry 
     allow_methods=["*"],
     allow_headers=["*"],
 )
